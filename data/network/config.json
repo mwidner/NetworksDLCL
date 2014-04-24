@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Michael Widner",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "All",
+    "more": "Color indicates community membership (modularity). Larger size indicates more connections. You can zoom in to see labels, hover over a node, or search for a name in the search box. Clicking on a node will display only that node\u0027s immediate connections.",
+    "intro": "This graph combines all the other DLCL graphs."
+  },
+  "legend": {
+    "edgeLabel": "Connection",
+    "colorLabel": "Modularity",
+    "nodeLabel": "Faculty, topics, languages, et al."
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "imageAttribute": "Label",
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}

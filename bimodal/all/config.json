@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Michael Widner",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "The DLCL Network",
+    "more": "This graph shows connections among DLCL faculty based on all the relevant survey responses. Color indicates membership in a group of similar nodes. The size of a node indicates how many connections it has. You can zoom in to see labels, hover over a node, or search for a name in the search box. Clicking on a node will display only that node\u0027s immediate connections.",
+    "intro": "This graph shows the DLCL\u0027s connections for research, teaching, structure, and collaboration."
+  },
+  "legend": {
+    "edgeLabel": "Membership",
+    "colorLabel": "Modularity",
+    "nodeLabel": "People, topics, groups, et al."
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "Dim"
+  },
+  "informationPanel": {
+    "imageAttribute": "image",
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}

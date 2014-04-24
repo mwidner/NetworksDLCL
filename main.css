@@ -1,0 +1,78 @@
+body {
+	background: #eee;
+	font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+div#navigation {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+a.menu-item:link, a.menu-item:visited {
+	border: 3px #c90 solid;
+	padding: 5px;
+	text-decoration: none;
+	color: black;
+	font-variant: small-caps;
+}
+
+a:hover {
+	background: #b84;
+}
+
+a.active {
+	color: white;
+	background: #a73;
+}
+
+a.logo:hover {
+	background: transparent;
+}
+
+iframe#network {
+	height: 75%;
+	width: 100%;
+}
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 750px;
+}
+
+img#logo {
+	width: 200px;
+	display: block;
+	float: left;
+}	
+
+div#footer {
+	margin-top: 10px;
+	text-align: center;
+}
+
+div#last_updated {
+	font-size: small;
+	margin-top: 10px;
+}
+
+div#about {
+	width: 75%;
+	margin-left: 200px;
+}
+
+div#developercontainer {
+	padding-top: 10px;
+	float: right;
+	font-size: small;
+}
+
+div#version {
+	float: right;
+	text-align: right;
+	font-size: small;
+}

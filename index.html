@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>The Networks of the DLCL</title>
+<link href="main.css" rel="stylesheet" type="text/css"> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(function() {
+	$('a.menu-item').click(function(event){
+		event.preventDefault();	
+		$('a.menu-item').removeClass('active');
+		$('iframe#network').attr('src', $(this).prop('href'));
+		$(this).addClass('active');
+	});
+});
+</script>
+</head>
+<body>
+<img id="logo" src="dlcl_logo.png" />
+<div id="version"><script>var complete=Math.round((28/53) * 100); document.write(Math.round((27/53)*100));</script>% complete</div>
+<h1>The Networks of the DLCL</h1>
+
+<div id="navigation">
+<a class="menu-item active" href="bimodal/all">All</a>
+<a class="menu-item" href="bimodal/structure">Structure</a>
+<a class="menu-item" href="bimodal/research">Research</a>
+<a class="menu-item" href="bimodal/collaboration">Collaboration</a>
+<a class="menu-item" href="bimodal/teaching">Teaching</a>
+<a class="menu-item" href="bimodal/teaching-collaboration">Teaching Collaboration</a>
+<a class="menu-item" href="about.html">About</a>
+</div>
+
+
+<iframe src="bimodal/all" name="network" id="network"></iframe>
+<div id="footer">
+Created by <a href="https://people.stanford.edu/widner/">Michael Widner</a>
+<div id="last_updated">
+Networks last updated on May 31, 2013
+</div>
+<div id="developercontainer">
+	sigma.js code adapted from work by
+        <a class="logo" href="http://www.oii.ox.ac.uk" title="Oxford Internet Institute">
+	<img src="layout/images/oii.png" /></a>
+        <a class="logo" href="http://jisc.ac.uk" title="JISC"><img src="layout/images/jisc-logo-small.png" /></a>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36801275-2']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</div>
+</body>
+</html>
